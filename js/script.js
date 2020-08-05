@@ -21,4 +21,4 @@ if (eta >=18 && eta <=65) {
   costoBiglietto = kmTot * costoKm * scontoOver;
 }
 
-document.getElementById('Totale').innerHTML = costoBiglietto + "&euro;";
+document.getElementById('Totale').innerHTML = costoBiglietto.toFixed(2) + "&euro;";
