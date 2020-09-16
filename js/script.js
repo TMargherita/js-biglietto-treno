@@ -11,7 +11,7 @@ var scontoMinori = 0.8;
 //3. sconto del 40% per gli over 65//
 var scontoOver = 0.6;
 //costo del biglietto//
-var costoBiglietto
+var costoBiglietto;
 
 if (eta >=18 && eta <=65) {
   costoBiglietto = kmTot * costoKm;
